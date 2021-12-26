@@ -43,4 +43,12 @@ public class ProductService {
             productRepository.delete(Product.get());
         }
     }
+
+    public ProductDto findByProductIdentifier(String productIdentifier) {
+        Product product = productRepository.findByProductIdentifier(productIdentifier);
+        if (product != null) {
+            return ProductDto.convert(product);
+        }
+        return null;
+    }
 }

@@ -1,0 +1,9 @@
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/repository/Product.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/controller/ProductController.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/repository/CategoryRepository.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/services/ProductService.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/ProductApiApplication.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/repository/ProductRepository.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/dtos/CategoryDto.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/repository/Category.java
+/home/lais/Projetos/pessoal/teste/product-api/src/main/java/com/laiscarvalho/productapi/dtos/ProductDto.java

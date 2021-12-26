@@ -2,7 +2,6 @@ package com.laiscarvalho.productapi.repository;
 
 
 import com.laiscarvalho.productapi.dtos.ProductDto;
-import jdk.jfr.Category;
 import lombok.Builder;
 import lombok.Data;
 

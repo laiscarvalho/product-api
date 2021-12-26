@@ -9,11 +9,11 @@ import java.util.List;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    @Query(value = "SELECT p.name, p.price,"
-                    + "p.productIdentifier, p.description"
-                    + "from product p"
-                    + "inner join category c on (p.category.id = c.id)"
-                    + "where c.id = : categoryId ")
+    @Query(value = "SELECT p.name, p.price, "
+                    + "p.productIdentifier, p.description "
+                    + "from product p "
+                    + "join category c on p.category.id = c.id "
+                    + "where c.id = :categoryId ")
     public List<Product> getProductByCategory(@Param("categoryId") long categoryId);
 
     public Product findByProductIdentifier(String productIdentifier);

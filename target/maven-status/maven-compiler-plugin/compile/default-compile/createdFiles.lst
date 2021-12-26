@@ -1,0 +1,13 @@
+com/laiscarvalho/productapi/repository/Product$ProductBuilder.class
+com/laiscarvalho/productapi/dtos/ProductDto$ProductDtoBuilder.class
+com/laiscarvalho/productapi/controller/ProductController.class
+com/laiscarvalho/productapi/dtos/ProductDto.class
+com/laiscarvalho/productapi/repository/Category$CategoryBuilder.class
+com/laiscarvalho/productapi/services/ProductService.class
+com/laiscarvalho/productapi/repository/Product.class
+com/laiscarvalho/productapi/repository/Category.class
+com/laiscarvalho/productapi/dtos/CategoryDto$CategoryDtoBuilder.class
+com/laiscarvalho/productapi/ProductApiApplication.class
+com/laiscarvalho/productapi/dtos/CategoryDto.class
+com/laiscarvalho/productapi/repository/CategoryRepository.class
+com/laiscarvalho/productapi/repository/ProductRepository.class
