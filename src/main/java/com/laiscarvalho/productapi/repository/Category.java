@@ -1,15 +1,18 @@
 package com.laiscarvalho.productapi.repository;
 
 import com.laiscarvalho.productapi.dtos.CategoryDto;
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
 @Builder
 @Entity(name = "category")
 public class Category {

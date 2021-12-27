@@ -2,12 +2,15 @@ package com.laiscarvalho.productapi.repository;
 
 
 import com.laiscarvalho.productapi.dtos.ProductDto;
-import lombok.Builder;
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 
-@Data
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
 @Builder
 @Entity(name = "product")
 public class Product {
@@ -33,6 +36,7 @@ public class Product {
                 .price(productDto.getPrice())
                 .description(productDto.getDescription())
                 .productIdentifier(productDto.getProductIdentifier())
+                .category(Category.convert(productDto.getCategory()))
                 .build();
 
         return product;

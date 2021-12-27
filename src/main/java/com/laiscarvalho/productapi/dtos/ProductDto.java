@@ -28,22 +28,18 @@ public class ProductDto {
     @NotNull
     private CategoryDto category;
 
-    public static ProductDto convert (Product product){
+    public static ProductDto convert(Product product) {
         ProductDto productDto = ProductDto.builder()
                 .name(product.getName())
                 .productIdentifier(product.getProductIdentifier())
                 .price(product.getPrice())
                 .description(product.getDescription())
-                .category(CategoryDto.convert((Category) product.getCategory()))
+                .category(product.getCategory() != null ? CategoryDto.convert(product.getCategory()) : null)
                 .build();
 
         return productDto;
 
     }
-
-
-
-
 
 
 }
